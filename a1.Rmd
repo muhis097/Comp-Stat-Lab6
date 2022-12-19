@@ -1,5 +1,5 @@
 ---
-title: "LAB6"
+title: "Computational Statistics Computer Lab 6"
 author: "Muhaiminul Islam, Hussnain Haidar"
 date: "2022-12-19"
 output: pdf_document
@@ -106,7 +106,7 @@ genetic= function(maxiter,mutprob){
 
 ```
 
-In below graphs black dots represent values of initial population, green dots represent values of population after final iteration, and the red dot represent max value after final iteration.
+In the below graphs black dots represent values of initial population, green dots represent values of population after final iteration, and the red dot represent max value after final iteration.
 
 ```{r, echo=FALSE, out.width="50%"}
 # set.seed(12345)
@@ -128,7 +128,7 @@ genetic(100,0.9)
 ```
 
 
-from above graphs we can see that genetic algorithm fails to find global maximum value when number of iterations are 10 even when we set mutation probability to 0.9, but when we increase number of iterations we see that the population moves toward global maximum value. 
+from above graphs we can see that genetic algorithm fails to find global maximal value when number of iterations are 10 even when we set mutation probability to 0.9, but when we increase number of iterations to 100 we see that the population moves toward global maximum value. More iteration means more possibility to converge to global maximal as strong parents are remaining after iterations with higher mutation probability.
  
 
 
